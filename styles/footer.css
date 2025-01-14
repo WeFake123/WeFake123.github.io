@@ -1,0 +1,5 @@
+footer{
+    background-color: var(--clr-grey-9);
+    width: 100%;
+    position: static;
+}
