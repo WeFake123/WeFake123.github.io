@@ -59,13 +59,17 @@
     text-align: center;
   }
 
+  #precio1{
+    color: red;
+  }
   #precio_curso{
     /* margin-top: -30px; */
+    color: green;
     margin-bottom: 2em;
     font-size: 20px;
     font-family: var(--ff-secondary);
     text-align: center;
-    text-decoration:underline;
+    /* text-decoration:underline; */
   }
 
 
