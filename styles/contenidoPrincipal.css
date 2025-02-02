@@ -1,0 +1,78 @@
+.image_fondo{
+    max-width: 100%;
+    display: flex
+;
+    flex-direction: column;
+    /* margin-top: 20%; */
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-white);
+    text-shadow: 3px 3px 10px var(--clr-grey-3);
+    height: 700px;   
+    background-image: url(../imagenes/Couch/imagen-fondo.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+@media (max-width:500px){
+    .image_fondo{
+        /* width: 100%; */
+        /* width: 500px; */
+        /* width: 20%; */
+        /* height: 400px;    */
+    }
+    #titulo1{
+        margin-top: -5980px;
+    }
+ }
+ @media (max-width:700px){
+    .image_fondo{
+        /* width: 100%; */
+        /* width: 500px; */
+        /* width: 20%; */
+        height: 500px;   
+    }
+    #titulo1{
+        /* margin-top: -180px; */
+        /* opacity: 0.5; */
+        background-color: hsl(212, 33%, 89%, 0.5);
+    }
+ }
+
+
+#titulo1{
+    margin-top: -180px;
+    /* opacity: 0.5; */
+    background-color: hsl(212, 33%, 89%, 0.5);
+}
+
+
+
+.titulos{
+    background-color: var(--clr-grey-9);
+    /* margin-top: 50px; */
+    
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#titulo{
+
+    display: flex
+    ;
+    font-family: var(--ff-primary);
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.parrafo{
+    align-items: center;
+    text-align: center;
+}
+
