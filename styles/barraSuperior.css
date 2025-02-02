@@ -16,7 +16,7 @@ header{
 .menu_iconos {
     display: flex;
     justify-content: space-between;
-    width: 100px;
+    width: 50px;
     height: 20px;
   }
   .space_icon {
