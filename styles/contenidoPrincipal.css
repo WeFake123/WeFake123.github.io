@@ -25,10 +25,63 @@ body{
     background-color: hsl(212, 33%, 89%, 0.5);
 }
 
+.honk-letrainicio{
+    text-align: center;
+    font-size: 6em;
+    font-family: "Honk", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0,
+      "SHLN" 50;
+
+  }
+
+  .protest-revolution-regular {
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6em;
+    text-align: center;
+  }
+  
+
+  .lacquer-regular {
+    font-family: "Lacquer", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .chela-one-regular {
+    font-family: "Chela One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .mr-dafoe-regular {
+    font-family: "Mr Dafoe", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+  @media (max-width:500px){
+    .protest-revolution-regular{
+        font-size: 3em;
+
+    }
+    
+  }
+
 
 @media (max-width:700px){
     .image_fondo{
-        width: 0%;
+        /* margin-top: 2em; */
+        /* width: 0%; */
         /* height: -10em; */
     }
     .titulos{
@@ -51,6 +104,7 @@ body{
         background-color: hsl(212, 33%, 89%, 0.5);
     }
  }
+
 
 
 

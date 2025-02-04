@@ -21,11 +21,14 @@ body{
 }
 
 .img_menu{
+    align-items: center;
+    margin: auto;
     margin-top: 70px;
-    /* width: 100%; */
+
     max-height: 600px;
     min-height: 500px;
-    min-width: 400px;
+    min-width: 200px;
+    max-width: 300px;
 
 }
 
@@ -33,6 +36,11 @@ body{
   margin-top: 150px;
   margin-left: 20px;
   margin-right: 20px;
+  font-family: "Protest Revolution", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  text-align: center;
 }
 
 .pregunta{
@@ -79,23 +87,15 @@ body{
     margin-right: 20px;
 }
 
-@media (max-width:500px){
-
-    .img_primerPlan{
-        width: 0px;
-    }
-        
-    .img_menu{
-
-        /* max-width: 0px;
-        max-height: 0px;  */
-        /* display: block; */
-        margin: auto;
-        text-align: center;
-        align-items: center;
-    }
+.contenedor_imagen{
+    margin: auto;
+    display: block;
+    text-align: center;
+    
 
 }
+
+
 
 
 @media (max-width:1000px){
@@ -103,7 +103,7 @@ body{
         padding-top: 100px;
         /* margin-top: 20px; */
         display: block;
-        margin: none;
+        margin: auto;
     }
     .texto_primerPlan{
         margin-top: 0px;
@@ -111,10 +111,7 @@ body{
 
     .img_menu{
         margin-top: 200px;
-        /* width: 50%; */
-        /* max-width: 200px;
-        max-height: 400px; */
-        /* display: block; */
+        /* width: 100%; */
         margin: auto;
         text-align: center;
         align-items: center;

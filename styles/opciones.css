@@ -52,19 +52,22 @@
 
 
   #nombre_curso{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
     margin-top: -50px;
     font-size: 20px;
-    font-family: var(--ff-secondary);
-    text-align: center;
+
   }
 
   #precio1{
-    color: red;
+    
+    color: rgba(229, 40, 40, 0.788);
   }
   #precio_curso{
     /* margin-top: -30px; */
-    color: green;
+    color: rgb(75, 121, 75);
     margin-bottom: 2em;
     font-size: 20px;
     font-family: var(--ff-secondary);
