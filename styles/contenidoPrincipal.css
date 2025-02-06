@@ -10,13 +10,13 @@
     text-shadow: 3px 3px 10px var(--clr-grey-3);
     height: 700px;   
     background-image: url(../imagenes/Couch/imagen-fondo.jpg);
-    /* background-position: center; */
+    /* background-position-y: 70px; */
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 body{
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 #titulo1{
@@ -80,9 +80,7 @@ body{
 
 @media (max-width:700px){
     .image_fondo{
-        /* margin-top: 2em; */
-        /* width: 0%; */
-        /* height: -10em; */
+        background-position-y: 70px;
     }
     .titulos{
         /* margin-top: -200em; */
