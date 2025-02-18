@@ -72,8 +72,8 @@ body{
   @media (max-width:500px){
     .protest-revolution-regular{
         font-size: 3em;
-
     }
+
     
   }
 
@@ -87,7 +87,11 @@ body{
     }
     #titulo1{
         margin-top: -500px;
+        font-size: 0.60em;
     }
+
+
+
  }
  @media (min-width:700px){
     .image_fondo{
