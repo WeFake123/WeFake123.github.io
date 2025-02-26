@@ -4,9 +4,9 @@
     position: static;
 } */
 
-.redes_sociales_footer{
+/* .redes_sociales_footer{
     margin-bottom: 40px;
-}
+} */
 
 .Titulo_footer{
     font-family: "Chela One", serif;
@@ -21,7 +21,8 @@
 
 .imagen_footer{
   /* height: 15%; */
-    width: 15%;
+    max-width: 50px;
+    max-height: 50px;
     border-radius: 50%;
 }
 
